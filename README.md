@@ -25,9 +25,6 @@ deactivate
 
 ```bash
 pip install .
-
-# Test it
-pentest
 ```
 
 ## Usage
