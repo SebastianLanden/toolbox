@@ -37,6 +37,14 @@ bruteforce --url http://localhost:3000/auth/login --user user@example.com --max-
 
 bfselenium --url http://localhost:3000 --user user@example.com --max-length 8 --chars adoprsw
 ```
+
+python-docs
+```
+./scan -p 1-10000 | ./probe | ./report -s "Automatic port scanning"
+```
+
+
+
 CVEChecker
 
 ```
