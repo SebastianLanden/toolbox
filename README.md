@@ -39,14 +39,13 @@ bfselenium --url http://localhost:3000 --user user@example.com --max-length 8 --
 ```
 
 python-docs
-```
+
+```bash
 ./scan -p 1-10000 | ./probe | ./report -s "Automatic port scanning"
 ```
 
-
-
 CVEChecker
 
-```
+```bash
 CVEChecker "Name of the product" "Version of the product"
 ```
